@@ -1,7 +1,60 @@
 body {
-        color: red;
+        font-family: Tahoma, sans-serif;
       }
 
-h1 {
-        font-size: 5px;
-}
+      .formdiv {
+        margin: 12px auto;
+        max-width: 90vw;
+        width: 620px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+      }
+
+      h1, p {
+        text-align: center;
+      }
+
+      input, select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 1.125em;
+        text-transform: capitalize;
+      }
+    
+      input[type=submit] {
+        background-color: #04aa6d;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #008553;
+      }
+
+      /*Responsive Layar Kecil*/
+      /*
+      @media screen and (max-width: 768px) {
+        input, select {
+          width: 100%;
+          font-size: 1.125em;
+        }
+      }
+    
+      /*Split input form*/
+      /*
+      .split {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .split input {
+        width: 48%;
+      }*/
