@@ -2,7 +2,7 @@ body {
     font-family: Tahoma, sans-serif;
 }
 
-.formdiv {
+/*.formdiv {
     margin: 12px auto;
     max-width: 90vw;
     width: 620px;
@@ -39,7 +39,7 @@ input[type=submit]:hover {
 }
 
 /*Responsive Layar Kecil*/
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     input, select {
         font-size: 1.125em;
     }
